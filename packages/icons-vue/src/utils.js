@@ -7,7 +7,6 @@ export function warn(valid, message) {
   // Support uglify
   if (process.env.NODE_ENV !== 'production' && !valid && console !== undefined) {
     console.error(`Warning: ${message}`);
-    console.log(1)
   }
 }
 
