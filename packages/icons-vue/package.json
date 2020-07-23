@@ -20,7 +20,7 @@
     "test": "cross-env NODE_ENV=test jest --config .jest.js",
     "generate": "rimraf src/icons && node scripts/generate.js --target=icon",
     "postcompile": "npm run clean && node scripts/generate.js --target=entry",
-    "prepublishOnly": "npm run lint && npm run generate && npm run compile && npm run test"
+    "prepublishOnly": "npm run generate && npm run compile && npm run test"
   },
   "peerDependencies": {
     "vue": ">=2.5.0",
@@ -60,5 +60,5 @@
     }
   },
   "description": "Ant Design Icons for Vue",
-  "gitHead": "6b3d0c3e5915fe0c41563b2e8e350e5dafb0c97b"
+  "gitHead": "d68c5a9809076ca19a332e1095d75ce660580a73"
 }
