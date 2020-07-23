@@ -79,5 +79,8 @@
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "gitHead": "61313cf88f77c323b9660fb12aea59f092e69acd"
+  "gitHead": "61313cf88f77c323b9660fb12aea59f092e69acd",
+  "dependencies": {
+    "@ant-design/icons": "^4.2.1"
+  }
 }
