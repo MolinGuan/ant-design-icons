@@ -1,6 +1,6 @@
 {
   "name": "@ant-design/icons-angular-workspace",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -31,7 +31,7 @@
     "@angular/platform-browser-dynamic": "^10.0.0",
     "@angular/router": "^10.0.0",
     "@ant-design/colors": "^3.1.0",
-    "@ant-design/icons-svg": "^4.1.5",
+    "@ant-design/icons-svg": "^4.1.7",
     "@types/jasmine": "~3.3.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/lodash": "^4.14.136",
